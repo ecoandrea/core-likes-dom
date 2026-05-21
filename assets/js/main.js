@@ -7,6 +7,6 @@ likeButtons.forEach((button) => { //recorre cada botón de like,
 
     let count = parseInt(likeCount.textContent); //obtenemos el numero actual de likes y con parseInt se asegura que sea entero
     count++;
-    likeCount.textContent = `${count} like(s)`; //actualizo texto
+    likeCount.textContent = `${count} like(s)`; //actualiza texto
   });
 });
